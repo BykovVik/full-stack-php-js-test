@@ -1,0 +1,40 @@
+**.env
+**node_modules/
+
+# Laravel
+/backend/vendor
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/Homestead.yaml
+/backend/Homestead.json
+/backend/npm-debug.log
+/backend/yarn-error.log
+/backend/package-lock.json
+/backend/yarn.lock
+
+# IDE
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
